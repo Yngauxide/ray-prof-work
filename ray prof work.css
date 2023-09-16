@@ -19,11 +19,15 @@ h1, p, h2{
 
 .img1{
     float: right;
-    width:  550px;
-    margin-left: 50px;
-    margin-top: -14px;
+    max-width: 100%;
+    height: auto;
+    /* width:  550px; */
+    /* margin-left: 50px; */
+    /* margin-top: -14px; */
     
 }
+
+
 
 .main{
     
@@ -55,6 +59,10 @@ button:hover{
 .main2{
 text-align: center;
 margin-bottom: 50px;
+margin-top: 270px;
+padding-top: 150px;
+
+
 background-image: url(./pics/anatolii-nesterov-X4K1DvQlgPQ-unsplash.jpg);
 }
 
@@ -73,13 +81,19 @@ color: blue;
     background-image:url(./pics/anatolii-nesterov-X4K1DvQlgPQ-unsplash.jpg)  ;
     padding: 100px;
 }
-
+#CATA{
+    color: crimson;
+}
 .img2{
     float: left;
     width:  350px;
     height: px;
     margin-left: 50px;
     border-radius: 20px;
+}
+.img2{
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -108,7 +122,7 @@ footer{
 
 
 
-manifesto
+/* manifesto */
 
 
 
@@ -117,8 +131,8 @@ manifesto
 .heading{
     text-align: center;
     color: crimson;
-    font-size: small;
-    background-color: black;
+    font-size: large;
+    background-color: lavender;
 }
 #manibody{
     margin-top: 10px;
